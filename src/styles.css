@@ -1,0 +1,39 @@
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: hsl(229, 24%, 87%);
+}
+.card {
+    width: 100%;
+   
+}
+
+header {
+    background-image: url(/src//assets/assets/images/bg-sidebar-mobile.svg);
+    width: 100%;
+    height: 150px;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+p {
+    margin: 0;
+
+}
+
+input {
+    animation: girar 1s infinite;
+}
+
+@keyframes girar {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
