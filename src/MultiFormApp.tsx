@@ -1,24 +1,21 @@
+import { Form } from "./components/Form/Form";
 import { Steps } from "./components/Steps/Steps";
-import "./sanitize.css";
-import "./styles.css";
+import "./styles.css"
+
 
 export const MultiFormApp = () => {
   return (
     <div className="container">
       <div className="card">
-        <header>
+        <header className="header">
           <Steps stepValue={1} />
           <Steps stepValue={2} />
           <Steps stepValue={3} />
           <Steps stepValue={4} />
         </header>
-        <main>
-          <form action="">
-            <input type="text" />
-            <input type="text" />
-            <input type="text" />
-            <button>Check</button>
-          </form>
+        <main className="main">
+      <Form/>
+         
         </main>
       </div>
     </div>
