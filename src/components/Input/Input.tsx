@@ -17,7 +17,7 @@ export const Input = ({ text }: InputProps) => {
 
   return (
     <div className="input-container">
-      <input type="text" id="email" required />
+      <input type="email" id="email" required />
       <label id="emailLabel" htmlFor="email">
         {labelText.map((letter, index) =>
           letter !== " " ? (

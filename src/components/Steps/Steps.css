@@ -1,4 +1,10 @@
+@font-face { 
+
+    font-family: "Ubuntu Bold";
+    src: url(/src/assets/assets/fonts/Ubuntu-Bold.ttf);
+}
 .step {
+    font-family: "Ubuntu Bold";
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -9,3 +15,10 @@
     color: #FFFFFF;
     font-weight: bold;
 }
+
+.step-active {
+    transition: 1s;
+    background-color: #fff;
+    color: hsl(213, 96%, 18%);
+}
+

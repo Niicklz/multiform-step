@@ -3,9 +3,10 @@
     max-width: 150px;
     border-radius: 12px;
     border: none;
-    background-color: #6278F7;
+    background-color: hsl(213, 96%, 18%);
     color: #ffffff;
     font-weight: bold;
+    align-self: end;
 }
 
 .button-comp:hover {

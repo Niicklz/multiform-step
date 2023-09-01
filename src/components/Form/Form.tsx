@@ -1,7 +1,11 @@
+import { Button } from "../Button/Button";
 import { Input } from "../Input/Input";
 import "./Form.css"
+interface FormProps {
+  nextStep: ()=> void;
+}
 
-export const Form = () => {
+export const Form = ({nextStep}:FormProps) => {
  
 
   return (
@@ -13,7 +17,7 @@ export const Form = () => {
         <Input text="Email"/>
         <Input text="Email Address"/>
         <Input text="Phone Number"/>
-        
+        <Button onClick={nextStep} buttonText="Next Step"/>
     </fieldset>
    </form>
   );

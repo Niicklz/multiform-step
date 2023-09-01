@@ -2,6 +2,7 @@
     width: 100%;
     min-height: 100vh;
     background-color: hsl(229, 24%, 87%);
+    
 }
 .card {
     width: 100%;
@@ -33,3 +34,38 @@ p {
 
 }
 
+
+@media (min-width:1024px) {
+    .card {
+        display: flex;
+        max-width: 830px;
+        height: 470px;
+        background-color: #fff;
+        padding: 1rem;
+        border-radius: 12px;
+        justify-content: space-around;
+        gap: 0;
+        
+
+       
+    }
+    .container {
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .card .header {
+        background-image: url(/src/assets/assets/images/bg-sidebar-desktop.svg);
+        height: 100%;        
+
+        width: 33%;
+        background-size: cover;
+        border-radius: 12px;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .main {
+        display: block;
+        margin-top: 3rem;
+    }
+}
