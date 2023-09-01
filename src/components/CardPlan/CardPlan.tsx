@@ -2,9 +2,13 @@ import "./CardPlan.css"
 
 export const CardPlan = () => {
   return (
-    <div className="card-plan-container">
+    <article className="card-plan-container">
         <figure className="icon-plan"></figure>
+        <div className="plan-detail">
+            <p className="plan-name">Arcade</p>
+            <p className="plan-price">$<span>19</span>/mo</p>
+        </div>
 
-    </div>
+    </article>
   )
 }

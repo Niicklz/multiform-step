@@ -1,10 +1,24 @@
 .card-plan-container {
+    
     border: 1px solid hsl(213, 96%, 18%) ;
     border-radius: 12px;
     padding: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
 }
 .icon-plan {
     background-image: url(/src/assets/assets/images/icon-arcade.svg);
     width: 40px;
     height: 40px;
+}
+
+.plan-name {
+    font-family: "Ubuntu Bold";
+    color: hsl(213, 96%, 18%);
+}
+.plan-price {
+    font-family: "Ubuntu Regular";
+    color: hsl(231, 11%, 63%);
 }

@@ -14,6 +14,67 @@
     position: absolute;
     padding: 1rem;
     border-radius: 12px;
-    transform: translateY(30%);
+    transform: translateY(40%);
 }
+.plan-type-container {
+    display: flex;
+    width: 100%;
+    gap: 6rem;
+    align-items: center;
+    justify-content: center;
+    min-height: 40px;
+}
+
+
+
+.inputBox {
+    
+    height: 20px;
+    display: flex;
+    position: relative;
+    
+}
+
+.inputBox label {
+    display: flex;
+    width: 55px;
+    height: 25px;
+    background-color: red;
+    position: absolute;
+    padding: 2px 2px;
+    border-radius: 20px;
+   
+    transform: translate(-65%, 55%);
+   
+    
+
+   
+    
+    
+    
+}
+.circle {
+    background-color: #fff;
+    width: 22px;
+    max-height: 21px;
+    border-radius: 50%;
+    height: 100%; 
+    position: absolute;
+   
+    text-align: center;
+    transition: .5s linear;
+    
+ }
+ .inputBox input {
+    opacity: 0;
+ }
+
+ .inputBox input:checked + label .circle {
+    
+    transform: translate(130%);
+    
+ }
+
+
+ 
 
