@@ -39,7 +39,7 @@
     display: flex;
     width: 55px;
     height: 25px;
-    background-color: red;
+    background-color: hsl(213, 96%, 18%);
     position: absolute;
     padding: 2px 2px;
     border-radius: 20px;
@@ -75,6 +75,15 @@
     
  }
 
+ .monthly-plans, .yearly-plans {
+    font-family: "Ubuntu Regular", sans-serif;
+    color: hsl(231, 11%, 63%);
+ }
+
+ .active {
+    color: hsl(213, 96%, 18%);
+    font-family: "Ubuntu Bold", sans-serif;
+ }
 
  
 
