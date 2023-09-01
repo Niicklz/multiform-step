@@ -26,8 +26,8 @@ export const MultiFormApp = () => {
           <Steps stepValue={4} currentStep={currentStep}/>
         </header>
         <main className="main">
-      <Form nextStep={nextStep}/>
-         
+      {currentStep === 1 && <Form nextStep={nextStep}/>}
+      {currentStep === 2 && <Plans/>}   
         </main>
       </div>
     </div>
