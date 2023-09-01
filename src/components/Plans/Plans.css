@@ -1,0 +1,19 @@
+.plans-title {
+    color: hsl(213, 96%, 18%);
+    font-size: 1.7rem;
+    font-family: "Ubuntu Bold", sans-serif;
+}
+.plans-text {
+    color: hsl(231, 11%, 63%);
+    font-family: "Ubuntu Regular", sans-serif;
+    margin-top: 1rem;
+    width: 90%;
+}
+.plans-container {
+    background-color: #fff;
+    position: absolute;
+    padding: 1rem;
+    border-radius: 12px;
+    transform: translateY(30%);
+}
+

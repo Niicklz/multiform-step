@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Form } from "./components/Form/Form";
 import { Steps } from "./components/Steps/Steps";
 import "./styles.css"
+import { Plans } from "./components/Plans/Plans";
 
 
 export const MultiFormApp = () => {

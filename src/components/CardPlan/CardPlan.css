@@ -1,0 +1,10 @@
+.card-plan-container {
+    border: 1px solid hsl(213, 96%, 18%) ;
+    border-radius: 12px;
+    padding: 1rem;
+}
+.icon-plan {
+    background-image: url(/src/assets/assets/images/icon-arcade.svg);
+    width: 40px;
+    height: 40px;
+}
